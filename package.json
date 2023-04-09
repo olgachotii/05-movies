@@ -1,7 +1,7 @@
 {
   "name": "05-movies",
   "version": "0.1.0",
-  "homepage": "https://olgachotii.github.io/05-movies/",
+  "homepage": "https://olgachotii.github.io/05-movies",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -24,12 +24,6 @@
     "deploy": "gh-pages -d build",
     "prepare": "husky install"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -43,13 +37,10 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
+   
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
   }
+
 }
